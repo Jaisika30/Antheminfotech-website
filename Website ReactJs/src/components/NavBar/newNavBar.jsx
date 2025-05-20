@@ -34,7 +34,7 @@ function NewNavBar() {
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
                                                     <Tilt scale={scale} transitionSpeed={4000}>  <img
-                                                        src={`${process.env.REACT_APP_PUBLIC_URL}/images/mega-menu/Custom-Software/customer-service-agent-thin.svg`}
+                                                       src={process.env.REACT_APP_PUBLIC_URL+"/images/mega-menu/Custom-Software/customer-service-agent-thin.svg"}
                                                         className="custom-svg"
                                                         alt="Customer Relationship Management"
                                                     />
