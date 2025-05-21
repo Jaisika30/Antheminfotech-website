@@ -28,12 +28,12 @@ const HomeSuccess = ({ classOption }) => {
                         <div className="about-image-area right-0 skill-image-area">
                             <div className="about-image js-tilt">
                                 <Tilt scale={scale} transitionSpeed={4000}>
-                                    <img src={process.env.PUBLIC_URL + "../images/skill/skill-1.jpg"} alt="skill-1" loading="lazy" />
+                                    <img src={process.env.PUBLIC_URL + "../images/skill/skill-1.webp"} alt="skill-1" loading="lazy" />
                                 </Tilt>
                             </div>
                             <div className="about-image js-tilt">
                                 <Tilt scale={scale} transitionSpeed={4000}>
-                                    <img src={process.env.PUBLIC_URL + "../images/skill/skill-2.jpg"} alt="skill-2" loading="lazy" />
+                                    <img src={process.env.PUBLIC_URL + "../images/skill/skill-2.webp"} alt="skill-2" loading="lazy" />
                                 </Tilt>
                             </div>
                             <div className="shape shape-1" id="scene" ref={sceneEl}>
