@@ -18,7 +18,7 @@ const Newsletter = () => {
     <div
       className="section section-bg-image section-padding-t110-b120 newsletter-section overlay-two"
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/newsletter.jpg)`,
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/bg/newsletter.webp)`,
       }}
     >
       <div className="container">

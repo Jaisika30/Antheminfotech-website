@@ -97,7 +97,7 @@ const Header = () => {
                         <div className="row justify-content-between align-items-center position-static">
                             <div className="col-xl-4 col-sm-4 col-auto order-0">
                                 <Logo
-                                    image={`${process.env.PUBLIC_URL}/images/logo/logo.png`} alt="anthem infotech logo"
+                                    image={`${process.env.PUBLIC_URL}/images/logo/logo.webp`} alt="anthem infotech logo"
                                 />
                             </div>
                             <div className="col-auto col-xl-8 col-sm-4 d-flex align-items-center justify-content-xl-center justify-content-end order-2 order-xl-1">
