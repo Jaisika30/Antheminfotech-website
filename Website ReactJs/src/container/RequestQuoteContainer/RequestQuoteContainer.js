@@ -71,7 +71,6 @@ const RequestQuoteContainer = ({ classOption }) => {
                   <Tilt scale={scale} transitionSpeed={4000}>
                     <img
                       src={
-                        process.env.PUBLIC_URL +
                         "../images/about/home-one-about/home_agency_about_1.webp"
                       }
                       alt="home_agency_about"
@@ -83,8 +82,7 @@ const RequestQuoteContainer = ({ classOption }) => {
                   <Tilt scale={scale} transitionSpeed={4000}>
                     <img
                       src={
-                        process.env.PUBLIC_URL +
-                        "/images/about/home-one-about/home_agency_about_2.webp"
+                        "../images/about/home-one-about/home_agency_about_2.webp"
                       }
                       alt="home_agency_about"
                     />

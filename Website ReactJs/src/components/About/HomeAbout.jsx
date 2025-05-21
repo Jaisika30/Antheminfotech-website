@@ -45,13 +45,13 @@ const HomeAbout = ({ classOption }) => {
                         <div className="about-image-area">
                             <div className="about-image">
                                 <Tilt scale={scale} transitionSpeed={4000}>
-                                    <img src={process.env.REACT_APP_PUBLIC_URL + "/images/about/home-one-about/home_agency_about_1.webp"} alt="home_agency_about" loading="lazy" />
+                                    <img src={ "/images/about/home-one-about/home_agency_about_1.webp"} alt="home_agency_about" loading="lazy" />
                                 </Tilt>
                             </div>
 
                             <div className="about-image">
                                 <Tilt scale={scale} transitionSpeed={4000}>
-                                    <img src={process.env.REACT_APP_PUBLIC_URL + "/images/about/home-one-about/home_agency_about_2.webp"} alt="home_agency_about" loading="lazy" />
+                                    <img src={"../images/about/home-one-about/home_agency_about_2.webp"} alt="home_agency_about" loading="lazy" />
                                 </Tilt>
                             </div>
                             <div className="shape shape-1" id="scene" ref={sceneEl}>
