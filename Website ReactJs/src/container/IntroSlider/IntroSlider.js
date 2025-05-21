@@ -82,7 +82,7 @@ const IntroSlider = ({ classOption }) => {
       >
         {IntroData &&
           IntroData.map((single, key) => {
-            return (
+          return (
               <SwiperSlide key={key}>
                 <Intro data={single} />
               </SwiperSlide>
