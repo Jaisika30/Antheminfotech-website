@@ -34,7 +34,7 @@ function NewNavBar() {
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
                                                     <Tilt scale={scale} transitionSpeed={4000}>  <img
-                                                       src={process.env.REACT_APP_PUBLIC_URL+"/images/mega-menu/Custom-Software/customer-service-agent-thin.svg"}
+                                                        src={process.env.REACT_APP_PUBLIC_URL + "/images/mega-menu/Custom-Software/customer-service-agent-thin.svg"}
                                                         className="custom-svg"
                                                         alt="Customer Relationship Management"
                                                     />
@@ -521,7 +521,9 @@ function NewNavBar() {
                                     </li>
 
                                     <li className="hidden-md">
-                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Publishing Rights Management"}><span className="menu-text">Publishing Rights Management</span></NavLink>
+                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Publishing Rights Management")}>
+                                            <span className="menu-text">Publishing Rights Management</span>
+                                        </NavLink>
                                         <div className="ruby-grid ruby-grid-lined mega-height">
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
@@ -561,8 +563,9 @@ function NewNavBar() {
                                         <span className="ruby-dropdown-toggle"></span>
                                     </li>
                                     <li className="hidden-md">
-                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Financial Audit Compliance"}><span className="menu-text">Financial Audit Compliance Solutions</span></NavLink>
-                                        <div className="ruby-grid ruby-grid-lined mega-height">
+                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Financial Audit Compliance")}>
+                                            <span className="menu-text">Financial Audit Compliance Solutions</span>
+                                        </NavLink>                                        <div className="ruby-grid ruby-grid-lined mega-height">
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
                                                     <Tilt scale={scale} transitionSpeed={4000}>  <img src={process.env.REACT_APP_PUBLIC_URL + "/images/mega-menu/Financial-Audit-Compliance/Real-Time-Analytics.svg"} className="custom-svg" loading="lazy" alt="Real-Time Analytics" />
@@ -601,7 +604,9 @@ function NewNavBar() {
                                         <span className="ruby-dropdown-toggle"></span>
                                     </li>
                                     <li className="hidden-md">
-                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Food Ordering Solutions"}><span className="menu-text">Food Ordering Solutions</span></NavLink>
+                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Food Ordering Solutions")}>
+                                            <span className="menu-text">Food Ordering Solutions</span>
+                                        </NavLink>
                                         <div className="ruby-grid ruby-grid-lined mega-height">
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
@@ -636,7 +641,9 @@ function NewNavBar() {
                                         <span className="ruby-dropdown-toggle"></span>
                                     </li>
                                     <li className="hidden-md">
-                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Information Technology Solutions"}><span className="menu-text">Information Technology Solutions</span></NavLink>
+                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Information Technology Solutions")}>
+                                            <span className="menu-text">Information Technology Solutions</span>
+                                        </NavLink>
                                         <div className="ruby-grid ruby-grid-lined mega-height">
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
@@ -752,7 +759,9 @@ function NewNavBar() {
                                     </li>
 
                                     <li className="hidden-md">
-                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Logistics and Supply Chain Management"}><span className="menu-text">Logistics & Supply Chain Management</span></NavLink>
+                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Logistics and Supply Chain Management")}>
+                                            <span className="menu-text">Logistics & Supply Chain Management</span>
+                                        </NavLink>
                                         <div className="ruby-grid ruby-grid-lined mega-height">
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
@@ -822,7 +831,9 @@ function NewNavBar() {
                                         <span className="ruby-dropdown-toggle"></span>
                                     </li>
                                     <li className="hidden-md">
-                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Healthcare and Medical Solutions"}><span className="menu-text">Healthcare & Medical Solutions</span></NavLink>
+                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Healthcare and Medical Solutions")}>
+                                            <span className="menu-text">Healthcare & Medical Solutions</span>
+                                        </NavLink>
                                         <div className="ruby-grid ruby-grid-lined mega-height">
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
@@ -857,8 +868,9 @@ function NewNavBar() {
                                         <span className="ruby-dropdown-toggle"></span>
                                     </li>
                                     <li className="hidden-md">
-                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Tourism and Travel Solutions"}><span className="menu-text">Tourism & Travel Solutions</span></NavLink>
-                                        <div className="ruby-grid ruby-grid-lined mega-height">
+                                        <NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Tourism and Travel Solutions")}>
+                                            <span className="menu-text">Tourism & Travel Solutions</span>
+                                        </NavLink>                                        <div className="ruby-grid ruby-grid-lined mega-height">
                                             <div className="ruby-row">
                                                 <div className="ruby-col-3 text-center">
                                                     <Tilt scale={scale} transitionSpeed={4000}>  <img src={process.env.REACT_APP_PUBLIC_URL + "/images/mega-menu/Tourism-and-Travel-Solutions/Online-Bookings.svg"} className="custom-svg" loading="lazy" alt="Online Bookings" />

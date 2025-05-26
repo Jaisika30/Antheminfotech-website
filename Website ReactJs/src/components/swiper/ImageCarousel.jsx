@@ -32,6 +32,10 @@ const ImageCarousel = ({ imageUrls }) => {
     return (
         <Container className="mt-4">
             <Swiper
+                lazy={true}
+                preloadImages={false}
+                watchSlidesVisibility={true}
+                slidesPerView={1}
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{

@@ -104,7 +104,7 @@ function WordCloud({ classOption }) {
       element.addEventListener("click", () => {
         if (isActive) {
           window.open(
-            window.location.origin + "/OurWork/" + word.text,
+            window.location.origin + "/OurWork/" + encodeURIComponent(word.text),
             "_blank"
           );
         }

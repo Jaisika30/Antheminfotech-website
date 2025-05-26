@@ -61,7 +61,7 @@ const MobileNavMenu = () => {
                     <NavLink to={process.env.PUBLIC_URL + "/Home/Industries"}><span className="menu-text">Industries</span></NavLink>
                     <span className="menu-toggle" onClick={onClickHandler}><i className="icon fa fa-angle-down"></i></span>
                     <ul className="sub-menu">
-                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Workforce Compliance Solutions"}><span className="menu-text">Workforce Compliance Solutions</span></NavLink></li>
+                        {/* <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Workforce Compliance Solutions"}><span className="menu-text">Workforce Compliance Solutions</span></NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Publishing Rights Management"}><span className="menu-text">Publishing Rights Management</span></NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Financial Audit Compliance"}><span className="menu-text">Financial Audit Compliance</span></NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Food Ordering Solutions"}><span className="menu-text">Food Ordering Solutions</span></NavLink></li>
@@ -71,7 +71,20 @@ const MobileNavMenu = () => {
                         <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Logistics and Supply Chain Management"}><span className="menu-text">Logistics & Supply Chain Management</span></NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Construction Industry Software"}><span className="menu-text">Construction Industry Software</span></NavLink></li>
                         <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Healthcare and Medical Solutions"}><span className="menu-text">Healthcare & Medical Solutions</span></NavLink></li>
-                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Tourism and Travel Solutions"}><span className="menu-text">Tourism & Travel Solutions</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=Tourism and Travel Solutions"}><span className="menu-text">Tourism & Travel Solutions</span></NavLink></li> */}
+
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Workforce Compliance Solutions")}><span className="menu-text">Workforce Compliance Solutions</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Publishing Rights Management")}><span className="menu-text">Publishing Rights Management</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Financial Audit Compliance")}><span className="menu-text">Financial Audit Compliance</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Food Ordering Solutions")}><span className="menu-text">Food Ordering Solutions</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Information Technology Solutions")}><span className="menu-text">Information Technology Solutions</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Business Promotion Solutions")}><span className="menu-text">Business Promotion Solutions</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("HOA Automation Solutions")}><span className="menu-text">HOA Automation Solutions</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Logistics and Supply Chain Management")}><span className="menu-text">Logistics & Supply Chain Management</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Construction Industry Software")}><span className="menu-text">Construction Industry Software</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Healthcare and Medical Solutions")}><span className="menu-text">Healthcare & Medical Solutions</span></NavLink></li>
+                        <li><NavLink to={process.env.PUBLIC_URL + "/Home/Industries?Industrytype=" + encodeURIComponent("Tourism and Travel Solutions")}><span className="menu-text">Tourism & Travel Solutions</span></NavLink></li>
+
                     </ul>
                 </li>
                 <li>

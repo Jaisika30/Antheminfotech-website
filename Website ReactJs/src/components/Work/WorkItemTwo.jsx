@@ -127,7 +127,7 @@ const WorkItemTwo = ({ data }) => {
                                 .sort((a, b) => a.length - b.length) // Sort by length (shortest first)
                                 .slice(0, 7) // Limit to 5 items
                                 .map((highlight, index) => (
-                                    <Link key={index} to={`/OurWork/${highlight}`} className="line-clamp">
+                                    <Link key={index} to={`/OurWork/${encodeURIComponent(highlight)}`} className="line-clamp">
                                         {toTitleCase(highlight)}
                                     </Link>
                                 ))}
